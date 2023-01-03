@@ -1,0 +1,83 @@
+form#thread-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  form#thread-form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  form#thread-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+  }
+  
+  form#thread-form button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #0084b4;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  #tweet-container {
+    margin: 20px 0;
+  }
+  
+  .tweet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .tweet img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .tweet h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .tweet p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  #prev-button,
+  #next-button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #0084b4;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  #prev-button[disabled],
+  #next-button[disabled] {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
